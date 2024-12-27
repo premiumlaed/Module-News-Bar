@@ -11,7 +11,7 @@ label = tk.Label(root, text="مرحباً بك في التطبيق!", font=("Ari
 label.pack(pady=20)
 
 # رابط ملف الأخبار على GitHub
-GITHUB_URL = "https://raw.githubusercontent.com/username/repo/main/news.json"
+GITHUB_URL = "https://raw.githubusercontent.com/premiumlaed/News-BAR/refs/heads/main/news.json"
 
 # دمج شريط الأخبار
 news_bar = NewsBar(root, GITHUB_URL, height=50, bg="black", fg="white")
